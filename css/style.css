@@ -898,9 +898,3 @@ textarea{
 
  }
 
- @media(max-width: 250px){
-    #settings{
-        margin-top: 30px;
-    margin-right: 150px;
-    }
- }
