@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #111;
+    box-sizing: border-box;
+    background-image: url(bg.jpg);
+}
+
+h1 {
+	color: blue;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'Hind', sans-serif;
+}
+
+.title{
+	color: aqua;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.inputDiv{
+	
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%, -20%);
+	text-align: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    text-decoration: none;
+    padding: 12px;
+}
+
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	margin-top:  120px;
+	text-align: center;
+}
+
+.item{
+	border:  1px solid black;
+	width: 40%;
+	text-align: center;
+	border: 2px solid white;
+	padding: 10px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: lime;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+	transition: ease all .6s;
+}
+
+.edit:hover{
+	color: darkgreen;
+	transition: ease all .5s;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: black;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+	transition: ease all .6s;
+}
+
+.remove:hover{
+	color: gray;
+	transition: ease all .5s;
+}
