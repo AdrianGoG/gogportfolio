@@ -1,1 +1,155 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(../img/psjj.jpg) no-repeat;
+  background-size: cover;
+}
 
+* {
+	margin: 0;
+}
+
+
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.login-box h1{
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 6px solid #4caf50;
+  margin-bottom: 50px;
+  padding: 13px 0;
+  margin-top: 0;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 2px yellowgreen;
+}
+
+.textbox:hover{
+  box-shadow: 1px 1px 3px 1px rgb(235, 143, 24);
+}
+
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 12px 0;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: #4caf50;
+  transition: .7s; 
+}
+
+.createacc{
+  text-align: center;
+}
+
+.createacc a{
+  color:white;
+}
+
+.logreg{
+  text-align: center;
+}
+
+.logreg a{
+  color:white;
+}
+
+.error {
+  width: 100%;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.error p{
+  color: red;
+  text-align: center;
+}
+
+.succes{
+  position: absolute;
+  left: 50%;
+  margin-top: 5px;
+  transform: translate(-50%);
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  width: 50%;
+  height: 700px;
+}
+
+.alog{
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  padding: 10px;
+}
+
+.alog:hover{
+  color: darkred;
+  transition: 0.5s;
+}
+
+.boxdetails{
+  color: white;
+  text-align: right;
+  background-color: black;
+  padding: 10px;
+}
+
+.boxdetails a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  
+}
+
+.boxdetails a:hover{
+  color: gray;
+  transition: 0.5s;
+  
+}
