@@ -870,6 +870,11 @@ textarea{
     header{
         width: 100vw;
     }
+    
+     #settings{
+    margin-top: 15px;
+    margin-right: 150px;
+    }
 
     .heading{
         margin:0 3rem;
