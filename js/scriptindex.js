@@ -75,6 +75,13 @@ document.getElementById('click').onclick = function(){
 }
 }
 
+document.getElementById('bititwo').onclick = function(ev){
+  ev.preventDefault();
+}
+
+
+
+
 
 document.getElementById('button').onclick = function(ev){
 
@@ -447,9 +454,6 @@ function openCity(evt, cityName) {
 }
 
 
-
-
-
 document.getElementById('detailsone').onclick = function(ev){
 
   ev.preventDefault();
@@ -575,18 +579,44 @@ document.getElementById('detailsix').onclick = function(ev){
 }
 
 
-document.getElementById('detailseight').onclick = function(ev){
+
+document.getElementById('detailsmoremodal').onclick = function(ev){
 
   ev.preventDefault();
-  detailsfuncseight();
+  detailsmoreone();
 
 }
 
-  function detailsfuncseight(){
+  function detailsmoreone(){
 
-    var modal = document.getElementById("modaldetaileight");
+    var modal = document.getElementById("detailsmoremodalone");
 
-    var span = document.getElementById("closedetailseight");
+    var span = document.getElementById("detailsmoreclose");
+
+    modal.style.display = "block";
+    span.onclick = function() {
+    modal.style.display = "none";
+}
+    window.onclick = function(event) {
+    if (event.target == modal) {
+    modal.style.display = "none";
+  }
+} 
+}
+
+
+document.getElementById('detailsmorelse').onclick = function(ev){
+
+  ev.preventDefault();
+  detailsmoreoneelse();
+
+}
+
+  function detailsmoreoneelse(){
+
+    var modal = document.getElementById("modaldetailselse");
+
+    var span = document.getElementById("closedetailelse");
 
     modal.style.display = "block";
     span.onclick = function() {
