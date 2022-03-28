@@ -1,1 +1,44 @@
+<DOCTYPE html>
+<html>
 
+	<head>
+		<title>Convertor Valutar</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="AdrianGoG">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div id="all">
+			<h2>Value Converter</h2>
+		<form autocomplete="off">
+			<div id="partone">
+			From:<br><select id="selone">
+				<option value="euro" selected>Euro</option>
+				<option value="ron">RON</option>
+				<option value="dollar">Dollar</option>
+			</select><br>
+			Ammount: <input type="text" id="input" placeholder="Ammount" required>
+			</div>
+			<div id="partwo">
+			In:<br><select id="seltwo">
+				<option value="euro">Euro</option>
+				<option value="ron" selected>RON</option>
+				<option value="dollar">Dollar</option>
+			</select><br>
+			Result <input type="text" id="rez" disabled>
+			<br><br>
+			</div>
+			
+			<div id="parthree">
+				<a href="#" id="calc">Refresh</a><br><br>
+				<p id="error"></p>
+			</div>
+		</form>
+		</div>
+		
+		<script src="main.js"></script>
+
+	</body>
+</html>	

@@ -1,0 +1,140 @@
+body{
+    background-image: url(bg.jpg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: darkorange;
+    font-weight: bold;
+    text-align: center;
+}
+
+#all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(95, 64, 167);
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px 3px darkgray;
+}
+
+#partone{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    line-height: 50px;
+}
+
+#partwo{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    line-height: 50px;
+}
+
+#parthree{
+    width: 100%;
+    padding: 50px;
+    float: right;
+    transition: all .5s ease-out;
+}
+
+#parthree a{
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all .5s ease-out;
+    color:white;
+}
+
+#parthree a:hover{
+    background-color: rgb(122, 26, 26);
+    transition: 0.7 ease;
+    
+}
+
+input[type="text"]{
+    width: 250px;
+    text-align: center;
+    height: 40px;
+}
+
+select{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
+
+#rez{
+    color: rgb(4, 85, 207);
+    font-size: 25px;
+}
+
+#error{
+    color:red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/*--------------RESPONSIVE-------------*/
+
+@media(max-width:1400px){
+
+    #partone{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        line-height: 50px;
+        flex-wrap: wrap;
+    }
+    
+    #partwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        line-height: 70px;
+        flex-wrap: wrap;
+    }
+
+    #parthree{
+        width: 100%;
+        padding: 0;
+        margin-top: 25px;
+        transition: all .5s ease-out;
+        
+    }
+
+    #rez{
+        color: rgb(4, 85, 207);
+        font-size: 100%;
+    }
+
+    input[type="text"]{
+        width: 100%;
+        text-align: center;
+        height: 40px;
+    }
+
+}
