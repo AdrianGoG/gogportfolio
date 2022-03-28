@@ -1,0 +1,275 @@
+body{
+    background-color:rgb(26, 37, 41);
+    text-align: center;
+    height: 100vh;
+}
+
+*{
+    padding:0;
+    cursor: normal;
+    color:white;
+    margin: 0;
+}
+
+/* #containercenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+} */
+
+
+#keyboard{
+    width: 75%;
+    height: 370px;
+    float: left;
+    border: 2px solid darkorchid;
+}
+
+#keyboard div{
+    padding: 5px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+#onekeyrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#onekeyrow div{
+    width: 6%;
+    font-size: 23px;
+    border: 1px solid white;
+    border-radius: 3px;   
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px red; 
+} 
+
+#twokeyrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#twokeyrow div{
+    width: 6%;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 3px;   
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px greenyellow; 
+} 
+
+
+#threekeyrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#threekeyrow div{
+    width: 6%;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(253, 0, 253);    
+}
+
+#forkeyrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#forkeyrow div{
+    width: 6%;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(66, 202, 236);    
+} 
+
+#fivekeyrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fivekeyrow div{
+    width: 6%;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 3px;   
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(248, 224, 6); 
+} 
+
+
+#sixkeyrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sixkeyrow div{
+    width: 6%;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 3px;   
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(245, 84, 10); 
+} 
+
+#numlockpart{
+    float: right;
+    border: 2px solid darkorchid;
+    width: 24%;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#numlockpart div{
+    width: 10%;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 3px;   
+    padding: 10px;
+    height: 30px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px red; 
+}
+
+#mousepart{
+    width: 75%;
+    height: 300px;
+    display: flex;
+    border: 2px solid darkorchid;
+    float: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px!important;
+}
+
+#mousepart div{
+    margin: 5px;
+}
+
+#clkleft{
+    width: 250px;
+    height: 50px;
+    border: 1px solid darkorchid;
+    border-bottom-left-radius: 25px;
+}
+
+#clkmid{
+    width: 30px;
+    height: 50px;
+    border: 1px solid darkorchid;
+}
+
+#clkright{
+    width: 250px;
+    height: 50px;
+    border: 1px solid darkorchid;
+    border-bottom-right-radius: 25px;
+}
+
+#log{
+    float: right;
+    width: 24%;
+    height: 300px;
+    border: 2px solid darkorchid;
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: auto;
+    flex-direction: column-reverse; 
+    margin-top: 25px!important;
+}
+
+
+
+/*==============KEYS===================*/
+#space{
+    width: 500px!important;
+    text-align: center;
+}
+
+#tab{
+    width: 200px!important;
+}
+
+#enter{
+    width: 200px!important;
+}
+
+#cplk{
+    width: 150px!important;
+}
+
+#shift{
+    width: 170px!important;
+}
+
+#numlk{
+    width: 150px!important;
+}
+
+#enterr{
+    width: 120px!important;
+}
+
+#backspace{
+    width: 200px!important;
+}
+
+#fone, #ffive, #fnine, #prtsc{
+    margin-left: 20px!important;
+}
+
+
+@media (max-width:1400px){
+
+    html{
+        font-size: 55%;
+    }
+
+    #keyboard{
+        width: auto!important;
+        height: auto;
+    }
+
+    #containercenter{
+        position: static;
+        top: none;
+        left: none;
+        transform: none;
+        width: 90%;
+        height: auto;
+    }
+
+    #numlockpart{
+        border: 2px solid black;
+        width: 100%;
+        margin-top: 70px;
+        height: 370px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+}

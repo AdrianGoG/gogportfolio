@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestKeyboardApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body id="myId">
+<h1>Test Keyboard App</h1><br>
+<div id="containercenter">
+    <div id="keyboard">
+        <div id="onekeyrow">
+            <div id="esc">ESC</div>
 
+            <div id="fone">F1</div>
+            <div id="ftwo">F2</div>
+            <div id="fthree">F3</div>
+            <div id="ffor">F4</div>
+
+            <div id="ffive">F5</div>
+            <div id="fsix">F6</div>
+            <div id="fseven">F7</div>
+            <div id="feight">F8</div>
+
+            <div id="fnine">F9</div>
+            <div id="ften">F10</div>
+            <div id="feleven">F11</div>
+            <div id="ftwelve">F12</div>
+
+            <div id="prtsc">PrtSc</div>
+            <div id="scrlk">ScrLk</div>
+            <div id="pause">Pause</div>
+        </div>
+
+        <div id="twokeyrow">
+            <div id="tilda">`</div>
+            <div id="one">1</div>
+            <div id="two">2</div>
+            <div id="three">3</div>
+            <div id="forr">4</div>
+            <div id="five">5</div>
+            <div id="six">6</div>
+            <div id="seven">7</div>
+            <div id="eight">8</div>
+            <div id="nine">9</div>
+            <div id="zero">0</div>
+            <div id="minus">-</div>
+            <div id="equal">=</div>
+            <div id="backspace"><i class="fas fa-backspace"></i></div>
+
+            <div id="insert">Insert</div>
+            <div id="home">Home</div>
+            <div id="pgup">PgUP</div>
+        </div>
+
+        <div id="threekeyrow">
+            <div id="tab">TAB</div>
+            <div id="qk">Q</div>
+            <div id="wk">W</div>
+            <div id="ek">E</div>
+            <div id="rk">R</div>
+            <div id="tk">T</div>
+            <div id="yk">Y</div>
+            <div id="uk">U</div>
+            <div id="ik">I</div>
+            <div id="ok">O</div>
+            <div id="pk">P</div>
+            <div id="paral">[ {</div>
+            <div id="parar">] }</div>
+            <div id="lines">\ |</div>
+
+            <div id="del">DEL</div>
+            <div id="end">END</div>
+            <div id="pgdn">PgDN</div>
+        </div>
+
+        <div id="forkeyrow">
+            <div id="cplk">CapsLk</div>
+            <div id="ak">A</div>
+            <div id="sk">S</div>
+            <div id="dk">D</div>
+            <div id="fk">F</div>
+            <div id="gk">G</div>
+            <div id="hk">H</div>
+            <div id="jk">J</div>
+            <div id="kk">K</div>
+            <div id="lk">L</div>
+            <div id="points">; :</div>
+            <div id="dots">' "</div>
+            <div id="enter"><i class="fas fa-long-arrow-alt-left enter"></i></div>
+        </div>
+
+        <div id="fivekeyrow">
+            <div id="shift">Shift</div>
+            <div id="zk">Z</div>
+            <div id="xk">X</div>
+            <div id="ck">C</div>
+            <div id="vk">V</div>
+            <div id="bk">B</div>
+            <div id="nk">N</div>
+            <div id="mk">M</div>
+            <div id="smallk">, <</div>
+            <div id="bigk">. ></div>
+            <div id="quest">/ ?</div>
+            <div id="shiftwo">Shift</div>
+        </div>
+
+        <div id="sixkeyrow">
+            <div id="ctrl">CTRL</div>
+            <div id="windows"><i class="fab fa-windows"></i></div>
+            <div id="alt">ALT</div>
+            <div id="space">SPACE</div>
+            <div id="altwo">ALT</div>
+            <div id="fn">FN</div>
+            <div id="prnt"><i class="fas fa-file-alt"></i></div>
+            <div id="ctrltwo">CTRL</div>
+        </div>
+    </div>
+
+    <div id="numlockpart">
+        <div id="numlk">NumLock</div>
+        <div id="enterr">Enter</div>
+        <div id="bar">/</div>
+        <div id="star">*</div>
+        <div id="menos">-</div>
+        <div id="plas">+</div>
+        <div id="poiint">.</div>
+        <div id="neein">9</div>
+        <div id="eeight">8</div>
+        <div id="seeven">7</div>
+        <div id="siix">6</div>
+        <div id="fiive">5</div>
+        <div id="foor">4</div>
+        <div id="thhree">3</div>
+        <div id="twwo">2</div>
+        <div id="onne">1</div>
+        <div id="zeero">0</div>
+        <div id="aleft"><i class="fas fa-arrow-left"></i></div>
+        <div id="aup"><i class="fas fa-arrow-up"></i></div>
+        <div id="adown"><i class="fas fa-arrow-down"></i></div>
+        <div id="aright"><i class="fas fa-arrow-right"></i></div>
+    </div>
+    <div id="mousepart">
+        <div id="clkleft"></div>
+        <div id="clkmid"></div>
+        <div id="clkright"></div>
+    </div>
+
+    <div id="log">
+            <h2>Log</h2>
+        </div>
+</div>
+
+
+
+
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
